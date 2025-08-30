@@ -1,0 +1,222 @@
+/* Container for the whole landing page */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc; /* boundary around the whole page */
+}
+
+/* ---------------- TOP SECTION ---------------- */
+.header-top {
+  background-color: #1e40af; /* deep blue */
+  color: white;
+  padding: 20px;
+  border-bottom: 3px solid #ccc;
+}
+
+/* Flex container for logo + nav */
+.nav-container {
+  display: flex;
+  justify-content: space-between; /* logo left, nav right */
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Logo (TinyDogo) */
+.header-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+/* Navigation bar */
+.header-nav {
+  margin: 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* move to right */
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #facc15; /* yellow highlight on hover */
+}
+
+/* Subtitle under the nav */
+.header-subtitle {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #e0e7ff;
+}
+
+/* ---------------- MIDDLE SECTION ---------------- */
+.header-middle {
+  flex-grow: 1;
+  background-color: #f9fafb;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 3px solid #ccc;
+}
+
+.middle-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+.middle-text {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #374151;
+}
+
+/* ---------------- BOTTOM SECTION ---------------- */
+.header-bottom {
+  background-color: #111827; /* dark gray */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {/* Container for the whole landing page */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc; /* boundary around the whole page */
+}
+
+/* ---------------- TOP SECTION ---------------- */
+.header-top {
+  background-color: #1e40af; /* deep blue */
+  color: white;
+  padding: 20px;
+  border-bottom: 3px solid #ccc;
+}
+
+/* Flex container for logo + nav */
+.nav-container {
+  display: flex;
+  justify-content: space-between; /* logo+name left, nav right */
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Logo + TinyDogo wrapper */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between logo and text */
+}
+
+/* Logo image */
+.logo-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* TinyDogo title */
+.header-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+/* Navigation bar */
+.header-nav {
+  margin: 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* move to right */
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #facc15; /* yellow highlight on hover */
+}
+
+/* Subtitle under the nav */
+.header-subtitle {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #e0e7ff;
+}
+
+/* ---------------- MIDDLE SECTION ---------------- */
+.header-middle {
+  flex-grow: 1;
+  background-color: #f9fafb;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 3px solid #ccc;
+}
+
+.middle-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+.middle-text {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #374151;
+}
+
+/* ---------------- BOTTOM SECTION ---------------- */
+.header-bottom {
+  background-color: #111827; /* dark gray */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #60a5fa;
+  text-decoration: underline;
+}
+
+.footer-links a:hover {
+  color: #facc15; /* hover yellow */
+}
+
+  color: #60a5fa;
+  text-decoration: underline;
+}
+
+.footer-links a:hover {
+  color: #facc15; /* hover yellow */
+}
